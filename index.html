@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Real Estate</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+     <!-- CSS file -->
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+     <header class="container-fluid">
+          <div class="container header__container">
+               <div class="header__nav_links">
+                    <a id="logo" class="header__logo" href="#">Real Eastate</a>
+                    <ul>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Properties</a></li>
+                         <li><a href="#">Blog</a></li>
+                    </ul>
+               </div>
+               <div class="header__account_auth">
+                    <ul>
+                         <li><a href="#">Sign Up</a></li>
+                         <li><a href="#">Sign In</a></li>
+                    </ul>
+               </div>
+          </div>
+     </header>
+
+     <section class="container-fluid banner">
+            <div class="row">
+                <div class="col-lg-6 banner__col_1">
+                    <h1>Buy and Sell Properties in a Easy Way</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat cum mollitia laborum architecto non harum nostrum corrupti.</p>
+                    <div class="banner__buy_sell">
+                         <li><a class="buy_btn" href="#">Buy</a></li>
+                         <li><a class="sell_btn" href="#">Sell</a></li>
+                    </div>
+                    <div class="banner__scroll_down">
+                         <span>Scroll Down</span>
+                        <i class="bi bi-arrow-down"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6 banner__col_2">
+                    <img src="assets/img/felix-janssen-mx7y8iWcF3E-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid search_properties">
+          <h2>Search Properties</h2>
+             <div class="container search_properties__container">
+                  <div class="col-lg-12 property-type">
+                    <form action="">
+                         <div class="property-bx prperty_type">
+                              <select name="property-type" id="">
+                                   <option value="">Property Type</option>
+                                   <option value="">Property Type 1</option>
+                                   <option value="">Property Type 2</option>
+                                   <option value="">Property Type 3</option>
+
+                              </select>
+                         </div>
+                         <div class="property-bx location">
+                              <input type="text" placeholder="Location">
+                         </div>
+                         <button>Search</button>
+                    </form>
+                  </div>
+             </div>
+        </section>
+
+        <section class="container-fluid tranding_properties">
+             <div class="container tranding_properties__container">
+             <h2>On Tranding Now</h2>
+               <div class="row">
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property1.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property2.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property3.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property4.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property5.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 property-bx">
+                         <img src="assets/img/on-tranding-property6.jpg" alt="">
+                         <h4>Redstone station</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur</p>
+                         <div>
+                              <h5>Rachael Green</h5>
+                         </div>
+                    </div>
+               </div>
+             </div>
+        </section>
+
+     <script>
+          // Sticky Nav-bar
+          window.addEventListener('scroll', function(){
+          const header = document.querySelector('header');
+          header.classList.toggle("sticky", window.scrollY > 0);
+          })
+     </script>
+     
+</body>
+</html>
